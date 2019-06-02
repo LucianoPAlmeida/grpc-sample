@@ -7,5 +7,5 @@ target 'grpc-client' do
 
   # Pods for grpc-client
   pod 'SwiftProtobuf', '~> 1.0'
-
+  pod 'SwiftGRPC'
 end
