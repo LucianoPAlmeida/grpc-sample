@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service Driver {
+    rpc findDriver (DriverRequest) returns (DriverResponse) {}
+}
+
+message DriverRequest {
+  int32 number = 1;
+}
+
+message DriverResponse {
+  string name = 1;
+}
