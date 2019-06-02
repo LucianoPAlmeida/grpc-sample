@@ -1,3 +1,5 @@
+# We shold run this after we install Go in the machine. See https://golang.org/doc/install
+
 # Installing go on path
 export PATH=$PATH:/usr/local/go/bin
 
