@@ -6,8 +6,6 @@
 //  Copyright © 2019 Luciano Almeida. All rights reserved.
 //
 
-import UIKit
-
-class Driver: NSObject {
-
+struct Driver {
+    var name: String
 }
