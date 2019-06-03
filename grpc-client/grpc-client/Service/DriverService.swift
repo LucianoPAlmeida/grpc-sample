@@ -6,6 +6,11 @@
 //  Copyright © 2019 Luciano Almeida. All rights reserved.
 //
 import SwiftGRPC
+// 
+enum Result<Value, Error> {
+    case success(Value)
+    case failure(Error)
+}
 
 class AppDriverService {
     static let grpcClient = DriverServiceClient(address: "localhost:50051", secure: false)
